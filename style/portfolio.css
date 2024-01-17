@@ -1,13 +1,31 @@
-body {
+:root {
+  --main-color: #183348;
+  --text-align: center;
+  --text-decoration: none;
+}
+
+.write {
+  color: var(--main-color);
+}
+
+.body1 {
   background-image: url("final.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .heading {
-  text-align: center;
   margin: 320px auto 100px auto;
   color: white;
+  text-align: var(--text-align);
+}
+
+.home-head {
+  text-align: var(--text-align);
+}
+
+.container {
+  text-align: var(--text-align);
 }
 
 h1 {
@@ -24,34 +42,52 @@ h2 {
 
 p {
   font-size: 18px !important;
-
   margin: 15px !important;
   font-family: "Poppins", sans-serif;
 }
 
 .start {
   background-color: white;
-  color: #18aab9;
   border-radius: 4px;
   border: 1px solid white;
   margin: 20px auto;
   padding: 10px 20px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   transition: all 2ms linear;
+}
+
+.text-start {
+  color: #18aab9;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .start:hover {
   background-color: #183348;
-  color: white;
   border-radius: 4px;
   border: 1px solid #183348;
   margin: 20px auto;
   padding: 10px 20px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.text-start:hover {
+  color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  text-decoration: none;
+}
+
+.baloon-home {
+  max-width: 100%;
+}
+
+.me {
+  background-color: rgb(236, 236, 236);
+  padding: 10px 20px 20px 20px;
+  margin: 20px 10px;
+  border-radius: 5px;
 }
 
 @media (max-width: 600px) {
@@ -71,36 +107,5 @@ p {
     font-size: 24px !important;
     margin: 0 !important;
     font-family: "Poppins", sans-serif;
-  }
-
-  p {
-    font-size: 18px !important;
-    margin: 15px !important;
-    font-family: "Poppins", sans-serif;
-  }
-
-  .start {
-    background-color: white;
-    color: #18aab9;
-    border-radius: 4px;
-    border: 1px solid white;
-    margin: 20px auto;
-    padding: 10px 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    transition: all 2ms linear;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-  }
-
-  .start:hover {
-    background-color: #183348;
-    color: white;
-    border-radius: 4px;
-    border: 1px solid #183348;
-    margin: 20px auto;
-    padding: 10px 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
   }
 }

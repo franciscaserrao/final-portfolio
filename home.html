@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Francisca's Portfolio</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="style/portfolio.css" />
     <link
       rel="stylesheet"
@@ -37,14 +37,53 @@
       rel="stylesheet"
     />
   </head>
-  <body class="body1">
-    <div class="heading">
-      <h2>Hello, I am</h2>
-      <h1>Francisca Serrão</h1>
-      <p>Aspiring front-end developer based in Lisbon, Portugal</p>
-      <button class="start">
-        <a href="home.html" class="text-start">Get to know me!</a>
-      </button>
+  <body>
+    <div class="home-head">
+      <img src="style/home.jpg" alt="baloons" class="baloon-home" />
+      <h1 class="write">Francisca Serrão</h1>
+      <p class="text-muted write">
+        Aspiring front-end developer based in Lisbon, Portugal
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="me">
+            <p class="write">Get to know me</p>
+            <a href="about.html">
+              <img
+                src="style/me.jpg"
+                alt="A photo of myself"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="me">
+            <p class="write">Have a look at my work</p>
+            <a href="work.html">
+              <img
+                src="style/work.png"
+                alt="A photo of my work"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="me">
+            <p class="write">Contact me</p>
+            <a href="contact.html">
+              <img
+                src="style/contact.jpg"
+                alt="Contact me photo"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
