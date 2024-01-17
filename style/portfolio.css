@@ -6,8 +6,7 @@ body {
 
 .heading {
   text-align: center;
-  margin-top: 320px;
-  margin-bottom: 100px;
+  margin: 320px auto 100px auto;
   color: white;
 }
 
