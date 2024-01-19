@@ -8,6 +8,10 @@
   color: var(--main-color);
 }
 
+body {
+  min-width: 355px;
+}
+
 .body1 {
   background-image: url("final.jpg") !important;
   background-repeat: no-repeat;
@@ -81,6 +85,7 @@ p {
 
 .baloon-home {
   max-width: 100%;
+  opacity: 80%;
 }
 
 .me {
@@ -88,6 +93,65 @@ p {
   padding: 10px 20px 20px 20px;
   margin: 20px 10px;
   border-radius: 5px;
+}
+
+.about-head h1 {
+  font-size: 48px !important;
+}
+
+.about-head p {
+  font-size: 14px !important;
+}
+
+.shecodes {
+  font-weight: 300;
+  text-align: justify;
+}
+
+.metime {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.small-img {
+  display: block;
+  width: 100%;
+}
+
+.check-work {
+  background-color: #18aab9;
+  border-radius: 4px;
+  border: 1px solid #18aab9;
+  margin: 20px auto;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 2ms linear;
+  width: 100%;
+}
+
+.text-work {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.check-work:hover {
+  background-color: #183348;
+  border-radius: 4px;
+  border: 1px solid #183348;
+  margin: 20px auto;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.text-work:hover {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {
