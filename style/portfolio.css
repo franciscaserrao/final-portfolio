@@ -207,6 +207,28 @@ p {
   text-decoration: none;
 }
 
+.navbar {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+.active {
+  color: #18aab9 !important;
+  font-weight: bold;
+}
+
+.active2 {
+  color: #18aab9 !important;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
 @media (max-width: 600px) {
   .heading {
     text-align: center;
