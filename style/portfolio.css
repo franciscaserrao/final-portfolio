@@ -16,10 +16,6 @@
   font-size: 48px !important;
 }
 
-.align {
-  text-align: var(--text-align);
-}
-
 body {
   min-width: 355px;
 }
@@ -169,6 +165,46 @@ p {
   font-weight: 300;
   text-align: center;
   font-size: 16px !important;
+}
+
+.linkedin {
+  display: block !important;
+  color: #0b65c2;
+  font-size: 48px;
+  text-align: center;
+}
+
+.mail {
+  display: block !important;
+  color: #e84a5c;
+  font-size: 48px;
+  text-align: center;
+}
+
+.computer {
+  display: block !important;
+  color: #47775b;
+  font-size: 48px;
+  text-align: center;
+}
+
+.links {
+  display: block !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.links:hover {
+  display: block !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: center;
+
+  color: var(--main-color);
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {
